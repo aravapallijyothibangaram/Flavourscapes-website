@@ -1,0 +1,223 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background-image: url("home\ bg-img.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    height: 100vh;
+}
+h1,h3{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    padding: 15px;
+    height: auto;
+    position: fixed;        /* key line */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;           /* always on top */ 
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.navbar-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color:cornsilk;
+    font-style: italic;
+    font-weight: bold;
+}
+.navbar-heading-container {
+    color:cornsilk;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    gap: 10px;
+    width: 300px;
+    
+    
+}
+.navbar-heading-container a:hover{
+    color: burlywood;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown {
+    position: relative;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 30px;
+    background-color: rgb(0, 66, 70);
+    min-width: 150px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+    z-index: 1;
+}
+.dropdown-content a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.dropdown-content a:hover {
+    background-color: rgb(243, 213, 137);
+    color: black;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropbtn {
+    cursor: pointer;
+}
+
+.Home-page{
+    color: aliceblue;
+    text-align: center;
+    padding: 230px 700px  100px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+}
+.Menu-page{
+    background-image: url('https://t3.ftcdn.net/jpg/00/93/94/70/360_F_93947061_762RH5kKEGwEJNGSN6flzUOJaXkMVVAT.jpg');
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    text-align: center;
+    padding: 70px;
+    font-size: 30px;
+}
+.Menu-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Starters-img{
+    height: 30vh;
+    width: 40vh;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.img-test{
+    font-size: 20px;
+}
+.about-section {
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/050/431/139/small_2x/indian-curry-spice-food-in-bowl-rustic-wooden-table-copyspace-for-template-traditional-asian-fried-vegetable-dinner-with-rice-chicken-bread-and-sauce-in-dish-photo.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 20px;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100vw;
+}
+
+.about-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: rgb(255, 145, 0);
+}
+
+.about-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 15px;
+    color: #d9d7d4;
+    padding: 0% 0% 0% 20%;
+}
+.contact-section {
+    padding: 60px 10%;
+    background-image: url('contact-bg-img.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.contact-section h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #004246;
+    padding-bottom: 2%;
+}
+
+.subtitle {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #555;
+}
+.contact-container {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.contact-info {
+    flex: 1;
+    background-color: #004246;
+    color: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.contact-info h2 {
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 15px;
+}
+.contact-form {
+    flex: 1;
+    background-color: #fafafa;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    background-color: #004246;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.contact-form button:hover {
+    background-color: #006d73;
+}
