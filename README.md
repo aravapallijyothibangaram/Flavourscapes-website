@@ -41,9 +41,9 @@ The website is designed to provide a clean, user-friendly, and visually appealin
 🎯 Purpose of the Project  
 The main goal of this project is to practice responsive web design and create a visually appealing restaurant menu website using HTML, CSS, and Bootstrap.
 
-📸 Screenshot  
-<img width="1904" height="878" alt="Image" src="https://github.com/user-attachments/assets/b2915157-a852-4cfa-be6a-3f28f4ac04c3" />
+📸 Screenshot 
 <img width="1895" height="910" alt="Image" src="https://github.com/user-attachments/assets/a49edb95-fa15-46fb-b7a9-48edde9f1d76" />
+<img width="1904" height="894" alt="Image" src="https://github.com/user-attachments/assets/1aaf4cb9-2939-4142-b28a-e6628dc22a50" />
 <img width="1897" height="894" alt="Image" src="https://github.com/user-attachments/assets/469c9a01-c326-4892-937e-7cbb65298737" />
 <img width="1900" height="897" alt="Image" src="https://github.com/user-attachments/assets/fd4e5d00-e73a-4ada-a192-93b113e7d931" />
 <img width="1902" height="910" alt="Image" src="https://github.com/user-attachments/assets/47a5d320-ebb9-44f7-9ed7-faaeca697ed3" />
@@ -54,4 +54,4 @@ The main goal of this project is to practice responsive web design and create a 
 <img width="1908" height="897" alt="Image" src="https://github.com/user-attachments/assets/665c0091-89b2-4ef8-a9c4-6b79eaa8c3b4" />
 <img width="1898" height="881" alt="Image" src="https://github.com/user-attachments/assets/902247b4-dd92-450c-8368-6df95cbe5094" />
 <img width="1906" height="897" alt="Image" src="https://github.com/user-attachments/assets/86a0a283-ef77-46f5-ab12-34dc50c92d76" />
-<img width="1904" height="894" alt="Image" src="https://github.com/user-attachments/assets/1aaf4cb9-2939-4142-b28a-e6628dc22a50" />
+<img width="1904" height="878" alt="Image" src="https://github.com/user-attachments/assets/b2915157-a852-4cfa-be6a-3f28f4ac04c3" />
